@@ -1,5 +1,5 @@
 
-import logo from '../../../public/logo.webp';
+import logo from '/logo.webp';
 
 
 const Header: React.FC = () => {
