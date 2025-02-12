@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+ 
+    height: 100vh;
+}
+
+.header {
+    background-color:#1d113a;
+    width: 100vw;
+    height: 100px; /* Ajuste selon ton besoin */
+    display: flex; /* Permet le centrage */
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo {
+    width: 100px;
+    height: 100px;
+    display: flex; /* Assure le centrage de l'image */
+ 
+   
+}
+
+.header-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
